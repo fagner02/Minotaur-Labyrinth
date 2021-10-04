@@ -9,7 +9,7 @@ void printTable(string **table, int size){
     cout<<"\n";
   }
 }
-
+ 
 set<int> compMove(int x, int y, int size,
  string **table, bool print = true){
   vector<string> moves={"esquerda", "direita",
